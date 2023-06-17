@@ -11,7 +11,6 @@ Desenvolvido no módulo do curso Node + Typescript da B7web
 ### Para rodar o projeto
 `npm run start-dev`
 
-
 <hr>
 
 ### Relembrando Comandos
