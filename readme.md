@@ -90,3 +90,20 @@ Servidor configurado `server.ts`
 Rotas configuradas `index.ts`
 
 Controllers configurados `pageController.ts`
+
+<hr>
+
+### Preparando aplicação para publicar no Heroku
+
+`npm install --save-dev copyfiles` -
+
+package.json
+
+      "scripts": {
+        "start": "node dist/server.js",
+        "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+      },
+npm install typescript
+`npm run postinstall`
