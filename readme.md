@@ -117,3 +117,4 @@ npm install typescript
 
 `npm install -g vercel`
 `vercel`
+run vercel --prod
