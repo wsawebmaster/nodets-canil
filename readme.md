@@ -1,18 +1,25 @@
-# PROJETO CANIL
+# 📂 PROJETO CANIL
+> Frontend da aplicação 📸
 
+<p align="center">
+  <img alt="To-do list" src="./frontend.png" width="100%">
+</p>
+
+## 📃 Descrição do projeto
 Desenvolvido no módulo do curso Node + Typescript da B7web
+
+<br />
 
 ### Pré-requisitos globais
 `npm install -g nodemon typescript ts-node`
 
-### Instalação
-`npm install`
+## 🛠️ Instalação
+`npm install` - Instalar dependências
 
-### Para rodar o projeto
-`npm run start-dev`
+`npm run start-dev` - Rodar o projeto localmente
 
-<hr>
-
+---
+---
 ### Relembrando Comandos
 
 `npm init -y` - Cria package.json iniciando npm
@@ -93,7 +100,7 @@ Controllers configurados `pageController.ts`
 
 <hr>
 
-### Preparando aplicação para publicar no Heroku
+### Preparando aplicação para publicar
 
 `npm install --save-dev copyfiles` -
 
