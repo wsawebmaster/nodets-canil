@@ -100,7 +100,7 @@ Controllers configurados `pageController.ts`
 
 <hr>
 
-### Preparando aplicação para publicar
+## 🌐 Preparando aplicação para publicar
 
 `npm install --save-dev copyfiles` -
 
@@ -114,3 +114,6 @@ package.json
       },
 npm install typescript
 `npm run postinstall`
+
+`npm install -g vercel`
+`vercel`
